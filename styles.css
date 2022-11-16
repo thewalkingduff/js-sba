@@ -1,0 +1,50 @@
+#messageBar {
+    z-index: 99;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 32px;
+}
+
+#gnome-logo {
+    width: 55px;
+}
+
+.SearchBox__button {
+    background: none;
+    border: 0;
+    border-radius: 0;
+    color: inherit;
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    padding: 0;
+    outline: none;
+}
+.search-button {
+    background: #F96302;
+    color: #fff;
+    opacity: 85%;
+}
+.search-button:hover {
+    background: #F96302;
+    color: #fff;
+    opacity: 100%;
+}
+.search-button:hover {
+    opacity: 100% !important; 
+}
+.cart-container {
+    margin-right: 1rem;
+}
+.fa-shopping-cart {
+    color: #F96302;
+    font-size: 2.25rem;
+    opacity: 85%;
+}
+.fa-shopping-cart:hover {
+    opacity: 100%;
+}
