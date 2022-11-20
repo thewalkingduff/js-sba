@@ -1,0 +1,50 @@
+.main-container {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr;
+    margin-top: 10rem;
+}
+.login-container {
+    background: #fff;
+    padding:  5rem 10rem 8rem;
+    border-radius: 4px;
+    text-align: center;
+}
+.login-form {
+    display: grid;
+    gap: 10px;
+}
+.login-header {
+     color: #333333;
+     font-size: 3rem;
+}
+.login-form-field {
+    height: 1.5rem;
+    font-size: 1.25;
+}
+.login-form-submit {
+    background: #F96302;
+    color: #fff;
+    padding: .5rem 2rem;
+    border: none;
+    border-radius: 4px;
+    opacity: 87%;
+    font-size: 1.25rem;
+}
+.login-form-submit:hover {
+    opacity: 100%;
+    cursor: pointer;
+}
+.sign-up-text {
+    text-decoration: none;
+    color: #F96302;
+}
+.error-border {
+    border: 2px solid red;
+    /* background: red; */
+}
+.login-form-error-message {
+    margin: 0;
+    color: red;
+}
