@@ -71,14 +71,12 @@ option {
     cursor: pointer;
 }
 .cart-container {
-    margin: 1rem;
+    margin: 1rem 1.25rem ;
+    color: #F96302;
 }
-.fa-shopping-cart {
+.shopping-cart {
     color: #F96302;
     font-size: 2.25rem;
-    opacity: 85%;
-}
-.fa-shopping-cart:hover {
     opacity: 100%;
 }
 .movies-link {
