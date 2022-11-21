@@ -1,0 +1,20 @@
+h1 {
+    color: #333333;
+    font-size: 4rem;
+    margin: 2rem;
+}
+
+table, th, td {
+    border: 1px solid;
+    font-size: 2rem;
+    padding: 10px;
+    text-align: center;
+  }
+
+.hero-container {
+    display: grid;
+    justify-items: center;
+}
+.table-container {
+    margin: 2rem;
+}

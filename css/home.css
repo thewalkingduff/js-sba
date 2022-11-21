@@ -38,11 +38,12 @@
     text-decoration: none;
     border: 2px solid #F96302;
     color: #F96302;
-    padding: .5rem 10rem;
+    padding: .5rem 7.5rem;
     border-radius: 4px;
-    margin: 1rem 0;
+    margin: 1rem .55rem;
     font-weight: 700;
     font-size: 1.15rem;
+    white-space: nowrap;
 }
 .add-cart-button:hover {
     color: #fff;

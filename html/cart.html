@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cart Page</title>
     <script src="https://kit.fontawesome.com/74b01ed38e.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="/css/main.css">
+
 </head>
 <body>
     <style>
@@ -29,16 +30,17 @@
             margin: auto;
             border-radius: 5px;
             box-shadow: 3px 5px #F96302; 
+            cursor: pointer;
         }
         
     </style>
     <div id="messageBar" style="background:#F96302;">
-        <a href="/home.html" class="messageBar" style="color:white;">Black Friday Savings Happening Now. End 11/30</a>
+        <a href="/html/home.html" class="messageBar" style="color:white;">Black Friday Savings Happening Now. End 11/30</a>
       </div>
       <nav class="navbar">
         <div class="logo-container">
-          <a class="" href="/home.html">
-            <img src="img/gnome-depot-logo.png" alt="home depot square orange logo" id="gnome-logo">
+          <a class="" href="/html/home.html">
+            <img src="/img/gnome-depot-logo.png" alt="home depot square orange logo" id="gnome-logo">
           </a>
         </div>
         <div class="search-container">
@@ -48,13 +50,16 @@
           </form>
         </div>
         <div class="cart-container">
-          <a href="/cart.html">
+          <a href="/html/cart.html">
             <i class="fas fa-shopping-cart fa-2xl"></i></a>
         </div>
       </nav>
     <h1>Cart Page</h1>
     <h2>Under Construction</h2>
-    <img src="img/construction.webp" alt="gnome in construction outfit holding hammer and orange safety street cone" class="img-construction-gnome">
-   
+
+        <img src="/img/construction.webp" alt="gnome in construction outfit holding hammer and orange safety street cone" class="img-construction-gnome" id="img-construction-gnome">
+
+    
+   <script src="/js/cart.js"></script>
 </body>
 </html>

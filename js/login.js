@@ -22,12 +22,24 @@ function validateForm(event, type) {
     } 
 }
 
+// regex from https://stackoverflow.com/questions/60792074/validate-username-with-regex-in-javascript
 function validateUsername(username) {
     checkEmptyOrNull(username);
+    let usernameRegex = /^([a-z0-9]|[-._](?![-._])){4,20}$/;
+    if (!(usernameRegex.test(username.value))) {
+        displayErrorMessage(username)
+    }
 }
 
+
+// Minimum eight characters, at least one uppercase letter, one lowercase letter, one number and one special character:
+// regex from:  https://stackoverflow.com/questions/19605150/regex-for-password-must-contain-at-least-eight-characters-at-least-one-number-a
 function validatePassword(password) {
     checkEmptyOrNull(password);
+    let passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+    if (!(passwordRegex.test(password.value))) {
+        displayErrorMessage(password)
+    }
 }
 
 // regex from https://www.w3resource.com/javascript/form/email-validation.php

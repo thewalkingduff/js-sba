@@ -6,30 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <script src="https://kit.fontawesome.com/74b01ed38e.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/login.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
-    <div id="messageBar" style="background:#F96302;">
-        <a href="home.html" class="messageBar" style="color:white;">Black Friday Savings Happening Now. End 11/30</a>
-      </div>
-      <nav class="navbar">
-        <div class="logo-container">
-          <a class="" href="home.html">
-            <img src="img/gnome-depot-logo.png" alt="home depot square orange logo" id="gnome-logo">
-          </a>
-        </div>
-        <div class="search-container">
-          <form class="search-form">
-            <input class="search-input" type="search" placeholder="What gnome can we help you find today?" aria-label="Search">
-            <button class="search-button" type="submit"><i class="fas fa-search fa-lg"></i></button>
-          </form>
-        </div>
-        <div class="cart-container">
-          <a href="/cart.html">
-            <i class="fas fa-shopping-cart fa-2xl"></i></a>
-        </div>
-      </nav>
+  <div id="messageBar" style="background:#F96302;">
+    <a href="/html/home.html" class="messageBar" style="color:white;">Black Friday Savings Happening Now. End 11/30</a>
+  </div>
+  <nav class="navbar">
+    <div class="logo-container">
+      <a class="" href="/html/home.html">
+        <img src="/img/gnome-depot-logo.png" alt="home depot square orange logo" id="gnome-logo">
+      </a>
+    </div>
+    <div class="search-container">
+      <form class="search-form">
+        <input class="search-input" type="search" placeholder="What gnome can we help you find today?" aria-label="Search">
+        <button class="search-button" type="submit"><i class="fas fa-search fa-lg"></i></button>
+      </form>
+    </div>
+    <div>
+      <a href="/html/movies.html" class="movies-link">Movies</a>
+    </div>
+    <div class="cart-container">
+      <a href="/html/cart.html">
+        <i class="fas fa-shopping-cart fa-2xl"></i></a>
+    </div>
+  </nav>
     <main class="main-container">
         <section class="login-container">
             <h1 class="login-header">Login</h1>
@@ -60,10 +63,10 @@
                 >
             </form>
             <div>
-                <p>Not a member yet?<a href="/register.html" class="sign-up-text"> Sign up here!</a></p>
+                <p>Not a member yet?<a href="/html/register.html" class="sign-up-text"> Sign up here!</a></p>
             </div>
         </section>
     </main>
-    <script src="login.js"></script>
+    <script src="/js/login.js"></script>
 </body>
 </html>
