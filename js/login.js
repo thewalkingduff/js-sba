@@ -1,11 +1,9 @@
 const usernameInput = document.getElementById("username-field");
 const passwordInput = document.getElementById("password-field");
 const emailInput = document.getElementById("email-field");
-
 const usernameErrorMessage = document.getElementById("username-error-message")
 const passwordErrorMessage = document.getElementById("password-error-message")
 const emailErrorMessage = document.getElementById("email-error-message")
-
 const loginButton = document.querySelector("#login-form-submit")
 
 function validateForm(event, type) {

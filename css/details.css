@@ -1,13 +1,9 @@
-.image-title-container {
+.image-name-container {
     display: flex;
     background: #fff;
 }
 .product-details-info-container {
     background: #fff;
-}
-
-.title-image-container {
-    
 }
 .description-text {
     margin: 3rem;

@@ -22,12 +22,12 @@
     height: 150px;
     gap: 0;
 }
-.product-title {
+.product-name {
     margin: 1rem 1.65rem .5rem;
     text-decoration: none;
     color: #333333;
 }
-.product-title-text {
+.product-name-text {
     margin: 0rem;
 }
 .margin {
